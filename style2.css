@@ -1,0 +1,128 @@
+body * {
+    font-family: "Noto Serif", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.container {
+    text-align: center;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    border: 2px solid red;
+}
+
+form {
+    display: inline-block;
+    text-align: start;
+    /* padding: 20px; */
+    width: 1273px;
+    height: 272px;
+    border-radius: 20px;
+    background-color: #fff;
+    /* border: 1px solid green; */
+    font-size: 0;
+}
+
+nav {
+    padding: 40px 40px 0px 40px;
+    margin-bottom: 20px;
+    /* padding-bottom: 20px; */
+    border-bottom: 1px solid #E6E8E8;
+}
+
+nav a {
+    display: inline-block;
+    font-size: 26px;
+    color: #CCCFD0;
+    margin-right: 80px;
+    padding-bottom: 20px;
+}
+
+
+
+nav a:active {
+    color: #021112;
+    border-bottom: 3px solid black;
+    margin-bottom: -2px;
+}
+
+
+.dv {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 20px;
+    position: relative;
+    /* border: 1px solid purple; */
+}
+
+.dv:after{
+    content: "";
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    width: 1px;
+    height: 50px;
+    background: #CFCCCC;
+}
+
+
+
+.dv:last-of-type::after {
+    display: none;
+}
+
+
+.dv img {
+    width: 15px;
+    margin-right: 4px;
+}
+
+.dv label {
+    font-size: 18px;
+    line-height: 29px;
+    color: #677071;
+}
+
+.dv p {
+    color: #021112;
+    line-height: 50px;
+    font-weight: 600;
+    font-size: 36px;
+    margin-right: 170px;
+    padding-left: 20px;
+    margin-top: 6px;
+}
+
+.dv p:last-child {
+    margin-right: 107px;
+}
+
+.btn {
+    color: #fff;
+    font-size: 28px;
+    line-height: 29px;
+    width: 206px;
+    border-radius: 20px;
+    background-color: #13A6BA;
+    padding: 25px 60px;
+    margin-bottom: 10px;
+}
+
+/* .loc {
+
+}
+.pro {
+
+}
+
+.pr {
+
+} */
