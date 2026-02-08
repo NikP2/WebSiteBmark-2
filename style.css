@@ -78,9 +78,11 @@ header li:hover {
 }
 
 .btn:hover {
-    background-color:#000000;
+    background-color:#FFFFFF;
     font-weight: 600;
     transform: scale(1.2);
+    color: #13A6BA;
+    outline: 1px solid #13A6BA;
 }
 
 header h1 {
@@ -122,7 +124,6 @@ form {
     border-radius: 20px;
     background-color: #fff;
     margin: 132px auto 0;
-    font-size: 0;
 }
 
 .choose {
@@ -206,6 +207,16 @@ form {
     background-color: #13A6BA;
     padding: 25px 60px;
     margin-bottom: 10px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-search:hover {
+    background-color: white;
+    outline: 2px solid #13A6BA;
+    color: #13A6BA;
 }
 
 .house {
@@ -226,7 +237,6 @@ form {
 
 
 .offersH {
-    border: 1px solid red;
     display: inline-block;
 }
 
@@ -318,14 +328,14 @@ form {
 }
 
 .offer1, .offer2, .offer3 {
-    border: 2px solid blue;
     border-radius: 20px;
     background-color: #FFFFFF;
     padding: 35px 33px;
     text-align: start;
     position: relative;
+    transition: 0.5s ease-in-out;
+     box-shadow: 0px 0px 10px 1px rgba(237, 236, 236, 0.2);
 }
-
 
 .offersH img {
     border-top-right-radius: 20px;
@@ -381,10 +391,11 @@ form {
     font-size: 28px;
     border: 2px solid #13A6BA;
     border-radius: 20px;
+    transition: 0.3s ease-in-out;
 }
 
 
-.infhouse:after{
+.infH:after{
     content: "";
     position: absolute;
     top: 50%;
@@ -395,9 +406,13 @@ form {
     background: #CFCCCC;
 }
 
+.btn-details:hover {
+    background-color: #13A6BA;
+    color: #FFFFFF;
+}
 
-.infhouse:last-child::after {
-    display: none;
+.offer1:hover, .offer2:hover, .offer3:hover {
+    box-shadow: 0px 10px 20px 5px rgba(0,0,0,0.2);
 }
 
 
